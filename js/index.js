@@ -56,7 +56,7 @@ function queryVideos() {
 				}
 
 				for (let video of responseJSON.items) {
-					$("#results").append("<div class='item'><a href='https://www.youtube.com/watch?v=" + video.id.videoId + "' target='blank'><h3 class='link'>" + video.snippet.title + "</h3><img class='link' src='" + video.snippet.thumbnails.medium.url + "'/></a></div>");
+					$("#results").append("<div class='item'><a href='https://www.youtube.com/watch?v=" + video.id.videoId + "' target='_blank'><h3 class='link'>" + video.snippet.title + "</h3><img class='link' src='" + video.snippet.thumbnails.medium.url + "'/></a></div>");
 				}
 			},
 		error: function(err){
