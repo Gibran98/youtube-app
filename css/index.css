@@ -1,0 +1,53 @@
+* {
+	font-family: sans-serif;
+}
+
+fieldset {
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+}
+
+.btn {
+	color: white;
+	background-color: #318CCC;
+	border-radius: 15px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#keyTerm {
+	margin: 0 10px;
+	width: 300px;
+}
+
+.lowerBtns {
+	margin: 10px;
+}
+
+#prev {
+	margin-right: 10px;
+}
+
+#prev, #next {
+	visibility: hidden;
+}
+
+.item {
+	border: solid 2px gray;
+	padding: 0 10px 10px 10px;
+	margin: 10px;
+}
+
+a {
+	color: #373535;
+	text-decoration: none;
+}
+
+.hidden {
+	visibility: none;
+}

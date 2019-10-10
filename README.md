@@ -1,0 +1,1 @@
+Sixth Laboratory of my web development class regarding APIs and Ajax
